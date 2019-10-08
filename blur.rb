@@ -14,8 +14,8 @@ class Image
     		end
     		end
     	end
- return one
- end
+ 		return one
+		end
     
     def transform
     	one = get_one
@@ -31,7 +31,7 @@ class Image
     		if column > 0
     			@blur[row][column -1] = 1
     		end
-    		if column <3
+    		if column < 3
     			@blur[row][column +1] = 1
     		end
     	end
